@@ -26,5 +26,8 @@ func main() {
 	}
 
 	fmt.Printf("n=%d [%T], k=%d, w=%v, v=%v\n", n, n, k, w, v)
-	fmt.Println(DPSolve(k, w, v))
+	//fmt.Println("No memo")
+	//fmt.Println(DPSolve(k, w, v))
+	fmt.Println("Memo")
+	fmt.Println(DPSolveMemo(k, w, v))
 }
